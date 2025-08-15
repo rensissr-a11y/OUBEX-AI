@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from openai import OpenAI
 
 # ඔයාගේ OpenAI API key එක මෙතන දාන්න
-client = OpenAI(api_key="YOUR_API_KEY")
+client = OpenAI(api_key="OPENAI_API_KEY")
 
 app = Flask(__name__)
 
